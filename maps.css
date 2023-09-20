@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+.menu{
+    position:relative;
+    border:1px solid orange;
+    width: 100%;
+}
+
+.image{
+    border:1px solid red;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.pulse {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 1%;
+    width: 1%;
+}
+
+.pulse span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: 0.5;
+    animation: pulseAnimate 4s ease-out infinite;
+    animation-delay: calc(1s * var(--i));
+}
+
+@keyframes pulseAnimate {
+    100% {
+        opacity: 0;
+        transform: scale(5);
+    }
+}
+
+#ct-b-inferno{
+    top:26%;
+    left:51%;
+}
+
+#coffins-b-inferno{
+    top:19%;
+    left:44%;
+}
+#short-a-inferno{
+    top:67%;
+    left:60%;
+}
+#long-a-inferno{
+    top:60%;
+    left:60%;
+}
+#conn-a-inferno{
+    top:50%;
+    left:66%;
+}
+#library-a-inferno{
+    top:53%;
+    left:77%;
+}
+#longsite-a-inferno{
+    top:56%;
+    left:74%;
+}
+#pit-a-inferno{
+    top:72%;
+    left:74%;
+}
